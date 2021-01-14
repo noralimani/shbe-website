@@ -1,0 +1,371 @@
+body{
+	font: 15px/1.5 Arial, Helvetica,sans-serif;/*font-size;line-height;font-family;*/\
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+
+/* Global*/
+.container{
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+}
+/* ti radhisim horizontalisht*/
+
+ul{
+	margin: 15px;
+	padding: 0;
+}
+
+   .button_1{
+   	height: 38px;
+   	background:#228b22;
+   	border: none;
+   	padding-left: 20px;
+   	padding-right: 20px;
+   	color:#ffffff;
+   }
+
+   .dark{
+   	padding: 15px;
+   	background: #35424a;
+   	color: #ffffff;
+   	margin-top: 10px;
+   	margin-bottom: 10px;
+
+   }
+
+/* header*/
+header{
+	background: #35424a;/* gray*/
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom:#228b22  3px solid;
+}
+/* ua ndrojm ngjyren home services etc se jan linqe*/
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+
+header li{
+	float:left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+header #branding{
+	float:relative;
+}
+
+header #branding h1{
+	margin: 0;
+	padding-top: 20px;
+}
+
+header #branding img{
+	float:left;
+	margin:0;
+	width: 100px;
+	height: auto;
+
+}
+
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+
+header .highlight, header .current a{
+	color:#228b22 ;
+	font-weight: bold;
+}
+
+ header a:hover{
+	color: #cccccc;
+	font-weight: bold;
+}
+
+/* showcase*/
+#showcase{
+	min-height: 400px;
+	width:100%;
+	background: url('../images/1.jpg') no-repeat 0;
+	text-align: center;
+	color: #006400;
+	background-size: cover;
+}
+#showcase h1{
+ 	margin-top: 150px;
+ 	font-size: 55px;
+ 	margin-bottom: 10px;
+
+ }
+  #showcase p{
+  	font-size: 20px;
+
+  }
+
+  #newsletter {
+  		padding: 15px;
+  		color:#ffffff;
+  		background: #35424a;
+  	}
+
+  	#newsletter h1{
+  		float:left;
+  	}
+
+  	#newsletter img{
+  		width: 50px;
+  		padding-top: 1.3%;
+  	}
+
+  	#newsletter form{
+  		float:right;
+  		margin-top: 15px;
+  	}
+
+  	#newsletter input[type="email"]{
+  		padding: 4px;
+  		height: 25px;
+  		width: 250px;
+  	}
+
+  	/*kutiat*/
+  	#kutia{
+  		margin-top: 20px;
+
+  	}
+  	#kutia .kuti{
+  		float: left;
+  		text-align: center;
+  		width: 30%;
+  		padding: 10px;
+  	}
+  	#kutia .kuti img{
+  		width: 90px;
+  	}
+  	/*sidebar*/
+  	aside#sidebar{ 
+  	float:right;
+  	width:30%;
+  	margin-top: 30px;
+  }
+  /*a main-col*/
+  article#main-col{
+  	margin-top: 30px;
+  	float:left;
+  	width:65%;
+  }
+  	/* services*/
+  	
+/* portfolio*/
+	#Portfolio {
+	background-color: #fafafa;
+	padding: 80px 0;
+	}
+	#Portfolio .block-heading p:last-of-type {
+	margin: 0;
+	}
+	#Portfolio .portfolio-wrapper .each-portfolio {
+	position: relative;
+	width: calc(33.3% - 10px);
+	float: left;
+	margin: 0 5px 10px;
+	text-decoration: none;
+	outline: 0 none;
+	}
+	#Portfolio .each-portfolio img {
+	width: 100%;
+	height: auto;
+	background:cover;
+	}
+	#Portfolio .each-portfolio .hover-cont-wrap {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: -webkit-fill-available;
+	height: -webkit-fill-available;
+	background-color: rgba(0, 152, 170, 0.8);
+	color: #fff;
+	display: block;
+	text-align: center;
+	opacity: 0;
+	transition: all 0.3s ease-in-out;
+	padding: 20px;
+	padding-top: 20%;
+	}
+		#Portfolio .each-portfolio .hover-cont-wrap .p-title {
+			font-size: 22px;
+			color: #fff;
+			position: relative;
+			top: -100px;
+			transition: top 0.3s ease-in-out;
+		}
+		#Portfolio .each-portfolio .hover-cont-wrap .p-desc {
+			position: relative;
+			top: 100px;
+			transition: top 0.3s ease-in-out;
+			color: #fff;
+			margin: 0;
+		}
+		#Portfolio .each-portfolio .hover-cont-wrap .icon-div {
+			font-size: 25px;
+		}
+		#Portfolio .each-portfolio .hover-cont-wrap .hover-cont-block {
+			display: block;
+			position: relative;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+		#Portfolio .portfolio-wrapper .each-portfolio:hover .hover-cont-wrap {
+			opacity: 1;
+			transition: all 0.3s ease-in-out;
+		}
+		#Portfolio .portfolio-wrapper .each-portfolio:hover .hover-cont-wrap .p-title, #Portfolio .portfolio-wrapper .each-portfolio:hover .hover-cont-wrap .p-desc {
+			top: 0;
+			transition: top 0.3s ease-in-out;
+		}
+  		/* Kontaktet*/
+  		}
+  	#ContactUs {
+			padding: 70px 0;
+		}
+	#ContactUs .contact-title {
+			font-size: 30px;
+		color: #000;
+			text-align: center;
+			margin: 0 0 30px;
+		}
+	#ContactUs .contact-outer-wrapper {
+		width: 100%;
+		height: auto;
+		display: table;
+		margin: 0 auto;
+		}
+	#ContactUs .address-block {
+		width: 40%;
+		height: 100%;
+	display: table-cell;
+	color: #333;
+	position: relative;
+	padding: 40px;
+	}
+	#ContactUs .address-block::after {
+  		position: absolute;
+  		content: "";
+ 		right: 3%;
+  		width: 1px;
+  		height: 80%;
+ 		 background: #ccc;
+ 		 top: 10%;
+	 }
+#ContactUs .add-title {
+	font-size: 22px;
+	font-weight: bold;
+	margin: 0 0 50px;
+}
+#ContactUs .c-detail {
+	margin-bottom: 20px;
+}
+#ContactUs .c-detail:last-child {
+	margin-bottom: 0;
+}
+#ContactUs .c-detail .c-icon {
+  width: 8%;
+  display: inline-block;
+  font-size: 20px;
+  vertical-align: top;
+}
+#ContactUs .c-detail .c-info {
+	width: 90%;
+	display: inline-block;
+	vertical-align: top;
+}
+#ContactUs .c-detail span .fa {
+	vertical-align: top;
+}
+#ContactUs .form-wrap {
+	width: 60%;
+	display: table-cell;
+	padding: 40px;
+}
+#ContactUs .form-wrap .floating-label {
+	position: relative;
+	width: 47%;
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+#ContactUs .form-wrap .user-msg {
+	width: 98%;
+	display: block;
+	margin-bottom: 40px;
+}
+#ContactUs .floating-input {
+	width: 100%;
+	border: 0;
+	border-bottom: 1px solid #999999;
+	box-shadow: none;
+	background-color: transparent;
+	padding-top: 3px;
+}
+#ContactUs .floating-input:focus {
+	outline: 0;
+}
+#ContactUs .form-wrap label {
+	position: absolute;
+	top: 0px;
+	left: 0;
+	font-size: 14px;
+	text-align: left;
+	color: #999999;
+	transition: top 0.2s ease-in-out;
+	z-index: -1;
+	margin: 0;
+}
+#ContactUs .floating-input:focus ~ label, #ContactUs .floating-input.not-empty ~ label {
+	top: -18px;
+  font-size:12px;
+  color:#0098aa;
+  transition: top 0.2s ease-in-out;
+}
+#ContactUs .submit-btn {
+	text-align: center;
+}
+	#ContactUs .submit-btn button {
+		font-size: 16px;
+		border: 0;
+		border-radius: 0;
+		background-color: #0098aa;
+		color: #fff;
+		padding: 10px 20px;
+		cursor: pointer;
+		outline: 0;
+	}
+	#ContactUs .submit-btn button:hover {
+		background-color: rgba(0,152,170,0.8);
+	}
+  	footer{
+  		padding:20px;
+  		margin-top: 20px;
+  		color: #ffffff;
+  		background-color: #228b22;
+  		text-align: center;
+  	}
+  @media screen and (max-width:98%) {
+  	#container{
+  		width: 100%;
+  	}
+  	#newsletter h1,img {
+  		width: 70%
+  	}
+  	#newsletter form {
+  		width: 30%
+  	}
+  }

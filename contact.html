@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<meta name="description" content="Affordable and professional web design">
+		<meta name="keywords" content="web design, affordable web design, professional web design">
+		<meta name="Author" content="Nora Limani">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>SHBE | About</title>
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+        <script type="text/javascript">
+            function checkforblank() {
+                var errormessage= "";
+                if (document.getElementById('full-name-field').value == "") {
+                    errormessage +="enter your Last Name \n";
+                }
+
+                 if (document.getElementById('name-field').value == "") {
+                  errormessage +="enter your Name \n";                
+                }
+
+                 if (document.getElementById('mail-field').value == "") {
+                  errormessage +="enter your Email \n";                
+                }
+
+                 if (errormessage != "") {
+                    alert (errormessage);
+                    return false;
+                  
+                }
+            }
+            
+        </script>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div id="branding">
+					<img src="images/logo.png" alt="logo"/> <h1>Shoqata <span class="highlight">Bjeshkatare</span> Shkupi</h1>
+				</div>
+				<nav>
+					<ul>
+						<li> <a href="./projekt.html">Home</a> </li>
+						<li> <a href="./about.html">About</a> </li>
+						<li> <a href="./services.html">Portfolio</a> </li>
+						<li class="current"> <a href="./contacs.html">Contact</a> </li>
+					</ul>
+				</nav>
+			</div> 
+		</header>
+		<!--<section id="newsletter">
+			<div class="container">
+				<h1>Kontakt Info</h1>
+			</div>
+		</section>-->
+		<section id="main">
+			<div class="container">	
+				<section id="ContactUs">
+            <div class="container contact-container">           
+                <div class="contact-outer-wrapper">
+                    <div class="address-block">
+                        <p class="add-title">Contact Details</p>
+                        <div class="c-detail">
+                            <span class="c-icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span> <span class="c-info">Ulica Sevastopolska</br> Skopje </span>
+                        </div>
+                        <div class="c-detail">
+                            <span class="c-icon"><i class="fa fa-phone" aria-hidden="true"></i></span> <span class="c-info">070 530 161</span>
+                        </div>
+                        <div class="c-detail">
+                            <span class="c-icon"><i class="fa fa-envelope" aria-hidden="true"></i></span> <span class="c-info">shbe.shkupi@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="form-wrap">
+                        <p class="add-title">Na Kontaktoni</p>
+                        <form action="#" method="post" onsubmit=" return checkforblank();">
+                            <div class="fname floating-label">
+                                <input type="text" class="floating-input" name="full name" id="full-name-field" />
+                                <label for="full-name-field">*Last Name</label>
+                            </div>
+                            <div class="contact floating-label">
+                                <input type="tel" class="floating-input" name="name" id="name-field" />
+                                <label for="contact-us-field">*Name</label>
+                            </div>
+                            <div class="email floating-label">
+                                <input type="email" class="floating-input" name="email" id="mail-field" />
+                                <label for="mail-field">*Email</label>
+                            </div>
+                            
+                            <div class="company floating-label">
+                                <input type="text" class="floating-input" name="company" id="company-field" />
+                                <label for="company-field">Company</label>
+                            </div>
+                            
+                            <div class="user-msg floating-label">
+                                <textarea class="floating-input" name="user message" id="user-msg-field"></textarea>
+                                <label for="user-msg-field" class="msg-label">Your Message</label>
+                            </div>
+                            <div class="submit-btn">
+                                <button type="submit">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+			</div>
+		</section>
+		<footer>
+			<p>Web Design, &copy; 2020 </p>
+		</footer>
+	</body>
+</html>
